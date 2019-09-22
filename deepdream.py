@@ -99,4 +99,4 @@ def run_deep_dream_simple(model, img, steps=100, step_size=0.01):
 
   return result
 dream_img = run_deep_dream_simple(model=dream_model, img=original_img, 
-                                  steps=80, step_size=0.004)
+                                  steps=800 step_size=0.001
